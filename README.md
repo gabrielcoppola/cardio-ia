@@ -58,8 +58,6 @@ A Parte 1 sempre sabe explicar por que decidiu; a Parte 2 acerta mais, mas preci
 auditada para que se descubra por quê. É essa tensão — explicabilidade contra desempenho —
 que define boa parte das decisões de IA aplicada à saúde.
 
-> ⚠️ Projeto acadêmico. Não é ferramenta diagnóstica e não substitui avaliação médica.
-
 
 ## 📁 Estrutura de pastas
 
