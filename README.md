@@ -8,7 +8,7 @@
 
 # CardioIA — Fase 2: Diagnóstico Automatizado (IA no Estetoscópio Digital)
 
-## Grupo 58
+## Grupo 89
 
 🎥 **Vídeo de demonstração (4 min):** `[COLE AQUI O LINK DO YOUTUBE — não listado]`
 
@@ -17,9 +17,7 @@
 
 ## 👩‍🏫 Professores:
 ### Tutor(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">[NOME DO TUTOR — preencher]</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">[NOME DO COORDENADOR — preencher]</a>
+- <a href="https://github.com/Leoruiz197">Leonardo Ruiz</a>
 
 
 ## 📜 Descrição
