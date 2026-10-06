@@ -1,0 +1,163 @@
+expressao_no_relato,sintoma_canonico
+dor no peito,dor no peito
+dor forte no peito,dor no peito
+dor toracica,dor no peito
+dor no torax,dor no peito
+peito doendo,dor no peito
+dor no peito muito intensa,dor no peito
+aperta,aperto no torax
+aperto no peito,aperto no torax
+aperto no torax,aperto no torax
+opressao no peito,aperto no torax
+peso no peito,sensacao de peso no peito
+sensacao de peso,sensacao de peso no peito
+queimacao no peito,queimacao no peito
+dor retroesternal,dor retroesternal
+irradia para o braco esquerdo,irradia para o braco esquerdo
+irradia para o braco,irradia para o braco esquerdo
+dor que vai para o braco,irradia para o braco esquerdo
+suando frio,suor frio
+suor frio,suor frio
+suor gelado,suor frio
+palidez,palidez
+nausea,nausea
+enjoo,nausea
+vomito,vomito
+piora quando faco esforco,piora com esforco
+piora com esforco,piora com esforco
+piora quando faco esforco fisico,piora com esforco
+esforco fisico,piora com esforco
+quando me esforco,piora com esforco
+subo escadas,subir escadas
+subir escadas,subir escadas
+subir escada,subir escadas
+caminhada,caminhada
+quando caminho,caminhada
+ao caminhar,caminhada
+melhora se eu paro,melhora com repouso
+paro para descansar,melhora com repouso
+melhora quando paro,melhora com repouso
+melhora com repouso,melhora com repouso
+passa quando sento,melhora com repouso
+em repouso,em repouso
+mesmo parado,em repouso
+sem fazer esforco,em repouso
+piora progressiva,piora progressiva
+esta piorando,piora progressiva
+cada dia pior,piora progressiva
+cansaco constante,cansaco constante
+cansaco,cansaco constante
+cansada,cansaco constante
+cansado,cansaco constante
+canso facil,cansaco constante
+fadiga,fadiga
+exausto,fadiga
+sem energia,fadiga
+cansaco diferente,cansaco constante
+pernas estao inchadas,pernas inchadas
+pernas inchadas,pernas inchadas
+perna inchada,pernas inchadas
+inchaco nas pernas,inchaco nas pernas
+pe inchado,edema nos tornozelos
+tornozelo inchado,edema nos tornozelos
+edema,edema nos tornozelos
+barriga inchada,barriga inchada
+ganho de peso rapido,ganho de peso rapido
+engordei rapido,ganho de peso rapido
+falta de ar para deitar,falta de ar para deitar
+falta de ar ao deitar,falta de ar para deitar
+nao consigo deitar,falta de ar para deitar
+dois travesseiros,dois travesseiros
+durmo sentado,dois travesseiros
+falta de ar,falta de ar
+dificuldade para respirar,falta de ar
+sem folego,falta de ar
+respiracao curta,falta de ar
+falta de ar subita,falta de ar subita
+aos pequenos esforcos,aos pequenos esforcos
+chiado no peito,chiado no peito
+coracao disparar,palpitacao
+coracao disparado,palpitacao
+coracao acelerado,coracao acelerado
+coracao acelera,coracao acelerado
+palpitacao,palpitacao
+batedeira,palpitacao
+coracao batendo forte,sensacao de batida forte
+coracao falhando,coracao falhando
+batimento irregular,batimento irregular
+batimento descompassado,batimento irregular
+do nada,sem esforco
+sem motivo,sem esforco
+sem esforco,sem esforco
+desmaio,desmaio
+desmaiei,desmaio
+apaguei,desmaio
+perda de consciencia,perda de consciencia
+levantar rapido,tontura ao levantar
+ao levantar,tontura ao levantar
+tontura,tontura
+tonto,tontura
+vista escurecendo,vista escurecendo
+escureceu a vista,vista escurecendo
+pressao tem dado alta,pressao alta
+pressao alta,pressao alta
+pressao elevada,pressao alta
+pressao descontrolada,pressao descontrolada
+pressao muito alta,pressao muito alta
+nuca pesada,nuca pesada
+peso na nuca,nuca pesada
+dor de cabeca intensa,dor de cabeca intensa
+dor de cabeca leve,dor de cabeca leve
+dor de cabeca,dor de cabeca
+visao embacada,visao embacada
+visao turva,visao turva
+zumbido no ouvido,zumbido no ouvido
+tosse seca,tosse seca
+tosse com catarro,tosse com catarro
+febre,febre
+mal estar,mal estar
+piora ao respirar fundo,piora ao respirar fundo
+piora quando respiro fundo,piora ao respirar fundo
+piora ao apertar o local,piora ao apertar o local
+doi quando aperto,piora ao apertar o local
+dor nas costas,dor nas costas
+costas doendo,dor nas costas
+dor no ombro,dor no ombro
+carrego peso,carregar peso
+carregar peso,carregar peso
+levantar peso,carregar peso
+tomo analgesico,melhora com analgesico
+melhora com analgesico,melhora com analgesico
+some com remedio,melhora com analgesico
+movimento do braco,movimento do braco
+queimacao no estomago,queimacao no estomago
+azia,azia
+apos refeicao,apos refeicao
+depois que como,apos refeicao
+melhora com agua e descanso,melhora com descanso
+melhora com descanso,melhora com descanso
+sem outros sintomas,sem outros sintomas
+formigamento nas maos,formigamento nas maos
+respiracao ofegante,respiracao ofegante
+ansiedade,ansiedade
+ansioso,ansiedade
+estresse,situacao de estresse
+situacao de estresse,situacao de estresse
+fraqueza em um lado do corpo,fraqueza em um lado do corpo
+fala enrolada,fala enrolada
+boca torta,boca torta
+perda de forca no braco,perda de forca no braco
+dor na panturrilha,dor na panturrilha
+inchaco em uma perna so,inchaco em uma perna so
+dor ao caminhar que melhora parado,dor ao caminhar que melhora parado
+claudicacao,claudicacao
+sede excessiva,sede excessiva
+urinar muito,urinar muito
+colesterol alto,colesterol alto
+historico familiar,historico familiar
+ronco,ronco
+sonolencia diurna,sonolencia diurna
+sudorese,sudorese
+tremor,tremor
+piora a noite,piora a noite
+piora durante a noite,piora a noite

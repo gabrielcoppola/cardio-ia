@@ -1,0 +1,27 @@
+# .gitignore — CardioIA Fase 2
+#
+# ATENCAO: o template oficial da FIAP ignora *.csv e *.xlsx. Isso faria sentido
+# para projetos cujos dados sao grandes ou sigilosos, mas nesta atividade os
+# arquivos .csv SAO entregaveis (mapa de conhecimento e base de frases rotuladas).
+# Por isso as regras abaixo reabrem explicitamente os dados do projeto.
+
+# --- regras herdadas do template FIAP ---
+*.csv
+*.tsv
+*.xls
+*.xlsx
+
+# --- excecoes: entregaveis da atividade, versionados de proposito ---
+!src/dados/*.csv
+!document/other/*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- sistema ---
+.DS_Store
+Thumbs.db

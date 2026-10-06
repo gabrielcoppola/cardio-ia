@@ -1,0 +1,11 @@
+id,relato,sintomas_extraidos,diagnostico_sugerido,pontuacao,confianca,urgencia,diferenciais
+R01,Há dois dias sinto uma dor forte no peito que aperta quando subo escadas e melhora se eu paro para descansar.,melhora com repouso; dor no peito; subir escadas; aperto no torax,Angina Estavel,17.5,alta,urgente,Infarto Agudo do Miocardio; Angina Instavel; Embolia Pulmonar
+R02,"Faz uma semana que acordo cansada mesmo dormindo oito horas, e minhas pernas estão inchadas no fim do dia.",pernas inchadas; cansaco constante,Insuficiencia Cardiaca,10.0,media,urgente,
+R03,Desde ontem à noite tenho falta de ar para deitar e preciso de dois travesseiros para conseguir dormir.,falta de ar para deitar; dois travesseiros; falta de ar,Insuficiencia Cardiaca,11.0,media,urgente,Doenca Pulmonar
+R04,"Sinto o coração disparar do nada algumas vezes por dia, dura uns minutos e passa sozinho, mas me deixa assustado.",palpitacao; sem esforco,Arritmia Cardiaca,7.0,media,urgente,
+R05,Tive um desmaio no trabalho hoje de manhã depois de levantar rápido da cadeira e fiquei com tontura o resto do dia.,tontura ao levantar; desmaio; tontura,Sincope Cardiogenica,8.5,media,emergencia,Arritmia Cardiaca
+R06,Há três semanas sinto uma dor nas costas que piora quando carrego peso e some quando tomo analgésico comum.,melhora com analgesico; dor nas costas; carregar peso,Dor Musculoesqueletica,4.0,alta,rotina,
+R07,"Estou com dor de cabeça leve há dois dias, consigo trabalhar normalmente e melhora com água e descanso.",melhora com descanso; dor de cabeca leve; dor de cabeca,Cefaleia Tensional,2.5,media,rotina,Hipertensao Arterial
+R08,Começou agora uma dor no peito muito intensa que irradia para o braço esquerdo e estou suando frio.,irradia para o braco esquerdo; dor no peito; suor frio,Infarto Agudo do Miocardio,14.0,alta,emergencia,Angina Estavel; Angina Instavel; Embolia Pulmonar
+R09,Minha pressão tem dado alta nas últimas medições em casa e sinto a nuca pesada no fim da tarde.,pressao alta; nuca pesada,Hipertensao Arterial,7.0,media,rotina,Crise Hipertensiva
+R10,Tenho tosse seca há cinco dias que piora à noite e sinto um cansaço diferente quando caminho até o mercado.,cansaco constante; caminhada; piora a noite; tosse seca,Doenca Pulmonar,5.0,media,urgente,Insuficiencia Cardiaca; Angina Estavel

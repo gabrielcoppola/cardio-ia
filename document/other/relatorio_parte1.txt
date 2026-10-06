@@ -1,0 +1,201 @@
+CardioIA - Fase 2 | Parte 1: extracao de sintomas e apoio ao diagnostico
+Ontologia: 63 regras | 162 expressoes mapeadas
+Relatos:   10 frases em frases_pacientes.txt
+
+==============================================================================
+PACIENTE 01
+==============================================================================
+Relato: "Há dois dias sinto uma dor forte no peito que aperta quando subo escadas e melhora se eu paro para descansar."
+
+Sintomas extraidos:
+  - melhora com repouso   (do trecho: "paro para descansar")
+  - dor no peito   (do trecho: "dor forte no peito")
+  - subir escadas   (do trecho: "subo escadas")
+  - aperto no torax   (do trecho: "aperta")
+
+Hipotese principal: Angina Estavel
+  Pontuacao ....... 17.5
+  Confianca ....... alta
+  Conduta ......... URGENTE - avaliacao medica em ate 24h
+  Evidencia ....... aperto no torax + melhora com repouso; dor no peito + subir escadas; dor no peito + melhora com repouso
+
+  Diagnosticos diferenciais:
+    - Infarto Agudo do Miocardio           8.0 pts
+    - Angina Instavel                      3.0 pts
+    - Embolia Pulmonar                     1.5 pts
+
+==============================================================================
+PACIENTE 02
+==============================================================================
+Relato: "Faz uma semana que acordo cansada mesmo dormindo oito horas, e minhas pernas estão inchadas no fim do dia."
+
+Sintomas extraidos:
+  - pernas inchadas   (do trecho: "pernas estao inchadas")
+  - cansaco constante   (do trecho: "cansada")
+
+Hipotese principal: Insuficiencia Cardiaca
+  Pontuacao ....... 10.0
+  Confianca ....... media
+  Conduta ......... URGENTE - avaliacao medica em ate 24h
+  Evidencia ....... cansaco constante + pernas inchadas
+
+==============================================================================
+PACIENTE 03
+==============================================================================
+Relato: "Desde ontem à noite tenho falta de ar para deitar e preciso de dois travesseiros para conseguir dormir."
+
+Sintomas extraidos:
+  - falta de ar para deitar
+  - dois travesseiros
+  - falta de ar
+
+Hipotese principal: Insuficiencia Cardiaca
+  Pontuacao ....... 11.0
+  Confianca ....... media
+  Conduta ......... URGENTE - avaliacao medica em ate 24h
+  Evidencia ....... falta de ar para deitar + dois travesseiros
+
+  Diagnosticos diferenciais:
+    - Doenca Pulmonar                      2.0 pts
+
+==============================================================================
+PACIENTE 04
+==============================================================================
+Relato: "Sinto o coração disparar do nada algumas vezes por dia, dura uns minutos e passa sozinho, mas me deixa assustado."
+
+Sintomas extraidos:
+  - palpitacao   (do trecho: "coracao disparar")
+  - sem esforco   (do trecho: "do nada")
+
+Hipotese principal: Arritmia Cardiaca
+  Pontuacao ....... 7.0
+  Confianca ....... media
+  Conduta ......... URGENTE - avaliacao medica em ate 24h
+  Evidencia ....... palpitacao + sem esforco
+
+==============================================================================
+PACIENTE 05
+==============================================================================
+Relato: "Tive um desmaio no trabalho hoje de manhã depois de levantar rápido da cadeira e fiquei com tontura o resto do dia."
+
+Sintomas extraidos:
+  - tontura ao levantar   (do trecho: "levantar rapido")
+  - desmaio
+  - tontura
+
+Hipotese principal: Sincope Cardiogenica
+  Pontuacao ....... 8.5
+  Confianca ....... media
+  Conduta ......... EMERGENCIA - encaminhar imediatamente
+  Evidencia ....... desmaio + tontura ao levantar
+
+  Diagnosticos diferenciais:
+    - Arritmia Cardiaca                    1.5 pts
+
+==============================================================================
+PACIENTE 06
+==============================================================================
+Relato: "Há três semanas sinto uma dor nas costas que piora quando carrego peso e some quando tomo analgésico comum."
+
+Sintomas extraidos:
+  - melhora com analgesico   (do trecho: "tomo analgesico")
+  - dor nas costas
+  - carregar peso   (do trecho: "carrego peso")
+
+Hipotese principal: Dor Musculoesqueletica
+  Pontuacao ....... 4.0
+  Confianca ....... alta
+  Conduta ......... ROTINA - agendar consulta eletiva
+  Evidencia ....... dor nas costas + carregar peso; dor nas costas + melhora com analgesico
+
+==============================================================================
+PACIENTE 07
+==============================================================================
+Relato: "Estou com dor de cabeça leve há dois dias, consigo trabalhar normalmente e melhora com água e descanso."
+
+Sintomas extraidos:
+  - melhora com descanso   (do trecho: "melhora com agua e descanso")
+  - dor de cabeca leve
+  - dor de cabeca
+
+Hipotese principal: Cefaleia Tensional
+  Pontuacao ....... 2.5
+  Confianca ....... media
+  Conduta ......... ROTINA - agendar consulta eletiva
+  Evidencia ....... dor de cabeca leve + melhora com descanso
+
+  Diagnosticos diferenciais:
+    - Hipertensao Arterial                 1.0 pts
+
+==============================================================================
+PACIENTE 08
+==============================================================================
+Relato: "Começou agora uma dor no peito muito intensa que irradia para o braço esquerdo e estou suando frio."
+
+Sintomas extraidos:
+  - irradia para o braco esquerdo
+  - dor no peito   (do trecho: "dor no peito muito intensa")
+  - suor frio   (do trecho: "suando frio")
+
+Hipotese principal: Infarto Agudo do Miocardio
+  Pontuacao ....... 14.0
+  Confianca ....... alta
+  Conduta ......... EMERGENCIA - encaminhar imediatamente
+  Evidencia ....... dor no peito + irradia para o braco esquerdo; dor no peito + suor frio
+
+  Diagnosticos diferenciais:
+    - Angina Estavel                       4.0 pts
+    - Angina Instavel                      3.0 pts
+    - Embolia Pulmonar                     1.5 pts
+
+==============================================================================
+PACIENTE 09
+==============================================================================
+Relato: "Minha pressão tem dado alta nas últimas medições em casa e sinto a nuca pesada no fim da tarde."
+
+Sintomas extraidos:
+  - pressao alta   (do trecho: "pressao tem dado alta")
+  - nuca pesada
+
+Hipotese principal: Hipertensao Arterial
+  Pontuacao ....... 7.0
+  Confianca ....... media
+  Conduta ......... ROTINA - agendar consulta eletiva
+  Evidencia ....... pressao alta + nuca pesada
+
+  Diagnosticos diferenciais:
+    - Crise Hipertensiva                   1.5 pts
+
+==============================================================================
+PACIENTE 10
+==============================================================================
+Relato: "Tenho tosse seca há cinco dias que piora à noite e sinto um cansaço diferente quando caminho até o mercado."
+
+Sintomas extraidos:
+  - cansaco constante   (do trecho: "cansaco diferente")
+  - caminhada   (do trecho: "quando caminho")
+  - piora a noite
+  - tosse seca
+
+Hipotese principal: Doenca Pulmonar
+  Pontuacao ....... 5.0
+  Confianca ....... media
+  Conduta ......... URGENTE - avaliacao medica em ate 24h
+  Evidencia ....... tosse seca + piora a noite
+
+  Diagnosticos diferenciais:
+    - Insuficiencia Cardiaca               4.0 pts
+    - Angina Estavel                       1.0 pts
+
+==============================================================================
+RESUMO DA TRIAGEM
+==============================================================================
+    emergencia: 2 paciente(s)
+       urgente: 5 paciente(s)
+        rotina: 3 paciente(s)
+
+  Cobertura da ontologia: 100% dos relatos tiveram ao menos um sintoma reconhecido
+
+  Resultado salvo em document/other/diagnosticos.csv
+
+AVISO: ferramenta academica de apoio. Nao substitui avaliacao medica.

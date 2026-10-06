@@ -1,0 +1,64 @@
+sintoma_1,sintoma_2,doenca_associada,peso,nivel_urgencia
+dor no peito,aperto no torax,Infarto Agudo do Miocardio,2,emergencia
+dor no peito,irradia para o braco esquerdo,Infarto Agudo do Miocardio,3,emergencia
+dor no peito,suor frio,Infarto Agudo do Miocardio,3,emergencia
+dor no peito,nausea,Infarto Agudo do Miocardio,2,emergencia
+queimacao no peito,sensacao de peso no peito,Infarto Agudo do Miocardio,2,emergencia
+dor retroesternal,palidez,Infarto Agudo do Miocardio,3,emergencia
+dor no peito,piora com esforco,Angina Estavel,3,urgente
+aperto no torax,melhora com repouso,Angina Estavel,3,urgente
+dor no peito,subir escadas,Angina Estavel,2,urgente
+desconforto toracico,caminhada,Angina Estavel,2,urgente
+dor no peito,em repouso,Angina Instavel,3,emergencia
+dor no peito,piora progressiva,Angina Instavel,3,emergencia
+cansaco constante,fadiga,Insuficiencia Cardiaca,3,urgente
+falta de ar,inchaco nas pernas,Insuficiencia Cardiaca,3,urgente
+pernas inchadas,edema nos tornozelos,Insuficiencia Cardiaca,3,urgente
+falta de ar para deitar,dois travesseiros,Insuficiencia Cardiaca,3,urgente
+cansaco,ganho de peso rapido,Insuficiencia Cardiaca,2,urgente
+falta de ar,aos pequenos esforcos,Insuficiencia Cardiaca,3,urgente
+barriga inchada,falta de ar,Insuficiencia Cardiaca,2,urgente
+coracao disparado,palpitacao,Arritmia Cardiaca,3,urgente
+batimento irregular,coracao acelerado,Arritmia Cardiaca,3,urgente
+palpitacao,tontura,Arritmia Cardiaca,3,urgente
+coracao falhando,sensacao de batida forte,Arritmia Cardiaca,2,urgente
+palpitacao,sem esforco,Arritmia Cardiaca,2,urgente
+desmaio,tontura ao levantar,Sincope Cardiogenica,3,emergencia
+desmaio,perda de consciencia,Sincope Cardiogenica,3,emergencia
+tontura,vista escurecendo,Sincope Cardiogenica,2,urgente
+pressao alta,nuca pesada,Hipertensao Arterial,3,rotina
+pressao alta,dor de cabeca,Hipertensao Arterial,2,rotina
+pressao descontrolada,zumbido no ouvido,Hipertensao Arterial,2,rotina
+pressao alta,visao embacada,Crise Hipertensiva,3,emergencia
+dor de cabeca intensa,pressao muito alta,Crise Hipertensiva,3,emergencia
+falta de ar,chiado no peito,Doenca Pulmonar,2,urgente
+tosse seca,falta de ar,Doenca Pulmonar,2,urgente
+tosse com catarro,febre,Infeccao Respiratoria,2,rotina
+dor no peito,piora ao respirar fundo,Dor Toracica Pleuritica,2,urgente
+dor no peito,piora ao apertar o local,Dor Musculoesqueletica,1,rotina
+dor nas costas,carregar peso,Dor Musculoesqueletica,1,rotina
+dor nas costas,melhora com analgesico,Dor Musculoesqueletica,1,rotina
+dor no ombro,movimento do braco,Dor Musculoesqueletica,1,rotina
+queimacao no estomago,azia,Refluxo Gastroesofagico,1,rotina
+dor no peito,apos refeicao,Refluxo Gastroesofagico,1,rotina
+dor de cabeca leve,melhora com descanso,Cefaleia Tensional,1,rotina
+dor de cabeca,sem outros sintomas,Cefaleia Tensional,1,rotina
+formigamento nas maos,respiracao ofegante,Crise de Ansiedade,1,rotina
+coracao acelerado,ansiedade,Crise de Ansiedade,1,rotina
+dor no peito,situacao de estresse,Crise de Ansiedade,1,rotina
+fraqueza em um lado do corpo,fala enrolada,Acidente Vascular Cerebral,3,emergencia
+boca torta,perda de forca no braco,Acidente Vascular Cerebral,3,emergencia
+dor na panturrilha,inchaco em uma perna so,Trombose Venosa Profunda,3,emergencia
+falta de ar subita,dor no peito,Embolia Pulmonar,3,emergencia
+claudicacao,dor ao caminhar que melhora parado,Doenca Arterial Periferica,2,rotina
+sede excessiva,urinar muito,Diabetes Mellitus,2,rotina
+visao turva,cansaco,Diabetes Mellitus,1,rotina
+colesterol alto,historico familiar,Dislipidemia,1,rotina
+ronco,sonolencia diurna,Apneia do Sono,2,rotina
+sudorese,tremor,Hipoglicemia,2,urgente
+nausea,vomito,Sintoma Inespecifico,1,rotina
+febre,mal estar,Sintoma Inespecifico,1,rotina
+dor no peito,melhora com repouso,Angina Estavel,3,urgente
+cansaco constante,pernas inchadas,Insuficiencia Cardiaca,3,urgente
+cansaco constante,falta de ar,Insuficiencia Cardiaca,2,urgente
+tosse seca,piora a noite,Doenca Pulmonar,2,rotina
