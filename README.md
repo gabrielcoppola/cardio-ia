@@ -10,10 +10,10 @@
 
 ## Grupo 89
 
-🎥 **Vídeo de demonstração (4 min):** `[COLE AQUI O LINK DO YOUTUBE — não listado]`
+🎥 **Vídeo de demonstração:** [https://youtu.be/xgy_ljhVqZA](https://youtu.be/xgy_ljhVqZA)
 
 ## 👨‍🎓 Integrantes:
-- <a href="https://www.linkedin.com/company/inova-fusca">Gabriel Coppola</a>
+- <a href="https://github.com/gabrielcoppola">Gabriel Coppola</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a)
@@ -69,7 +69,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>config</b>: Posicione aqui arquivos de configuração que são usados para definir parâmetros e ajustes do projeto. Contém o `requirements.txt` com as versões das bibliotecas.
 
-- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Contém o `ROTEIRO_VIDEO.md` (roteiro cronometrado da demonstração) e o `classificador_risco.html` (notebook renderizado, abre sem Jupyter). Na subpasta "other", os documentos complementares: saída completa da Parte 1 e o resultado em formato tabular.
+- <b>document</b>: aqui estão todos os documentos do projeto que as atividades poderão pedir. Contém o `classificador_risco.html` (notebook renderizado, abre sem Jupyter). Na subpasta "other", os documentos complementares: saída completa da Parte 1 e o resultado em formato tabular.
 
 - <b>scripts</b>: Posicione aqui scripts auxiliares para tarefas específicas do seu projeto. Contém o `executar_tudo.sh`, que roda as duas partes de ponta a ponta.
 
@@ -87,7 +87,6 @@ cardioia-fase2/
 ├── config/
 │   └── requirements.txt
 ├── document/
-│   ├── ROTEIRO_VIDEO.md
 │   ├── classificador_risco.html
 │   └── other/
 │       ├── diagnosticos.csv
