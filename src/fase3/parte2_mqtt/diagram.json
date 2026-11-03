@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "author": "Gabriel Coppola - Grupo 89",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -124.5,
+      "left": -149.4,
+      "attrs": { "temperature": "36.6", "humidity": "55" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnBatimento",
+      "top": 140,
+      "left": -220,
+      "attrs": { "color": "red", "label": "Batimento", "bounce": "0" }
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "swConexao",
+      "top": -91.6,
+      "left": 175.9,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 128.75,
+      "left": 172.8,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledAlerta",
+      "top": 54,
+      "left": 253.4,
+      "attrs": { "color": "red", "label": "Alerta" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 176.75,
+      "left": 172.8,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledOnline",
+      "top": 102,
+      "left": 320.6,
+      "attrs": { "color": "limegreen", "label": "Online" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:3V3", "red", [] ],
+    [ "dht1:GND", "esp:GND.1", "black", [] ],
+    [ "dht1:SDA", "esp:15", "green", [] ],
+    [ "btnBatimento:1.l", "esp:4", "orange", [] ],
+    [ "btnBatimento:2.l", "esp:GND.1", "black", [] ],
+    [ "swConexao:1", "esp:GND.2", "black", [] ],
+    [ "swConexao:2", "esp:19", "blue", [] ],
+    [ "swConexao:3", "esp:3V3", "red", [] ],
+    [ "esp:26", "r1:1", "red", [] ],
+    [ "r1:2", "ledAlerta:A", "red", [] ],
+    [ "ledAlerta:C", "esp:GND.2", "black", [] ],
+    [ "esp:27", "r2:1", "green", [] ],
+    [ "r2:2", "ledOnline:A", "green", [] ],
+    [ "ledOnline:C", "esp:GND.2", "black", [] ]
+  ],
+  "dependencies": {}
+}

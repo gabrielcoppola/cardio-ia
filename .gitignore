@@ -1,4 +1,4 @@
-# .gitignore — CardioIA Fase 2
+# .gitignore — CardioIA
 #
 # ATENCAO: o template oficial da FIAP ignora *.csv e *.xlsx. Isso faria sentido
 # para projetos cujos dados sao grandes ou sigilosos, mas nesta atividade os
@@ -12,8 +12,8 @@
 *.xlsx
 
 # --- excecoes: entregaveis da atividade, versionados de proposito ---
-!src/dados/*.csv
-!document/other/*.csv
+!src/fase2/dados/*.csv
+!document/fase2/other/*.csv
 
 # --- Python ---
 __pycache__/
