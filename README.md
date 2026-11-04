@@ -8,7 +8,7 @@
 
 # CardioIA
 
-## Grupo 89
+## Grupo 66
 
 ## 👨‍🎓 Integrantes:
 - <a href="https://github.com/gabrielcoppola">Gabriel Coppola</a>
@@ -29,13 +29,26 @@ pasta dentro de `src/`, `document/` e `assets/`.
 | **3** | [Monitoramento contínuo com IoT: Edge, Fog e Cloud](#fase-3--monitoramento-contínuo-iot-edge-fog-e-cloud) | `src/fase3/` |
 | 2 | [Diagnóstico automatizado: IA no estetoscópio digital](#fase-2--diagnóstico-automatizado-ia-no-estetoscópio-digital) | `src/fase2/` |
 
+## 📄 Relatórios
+
+Os relatórios ficam na pasta [`document/`](document/), separados por fase:
+
+| Fase | Relatório | Arquivo |
+|------|-----------|---------|
+| **3** | **Parte 1 — Edge Computing:** fluxo de funcionamento, armazenamento em SPIFFS e lógica de resiliência offline | [`document/fase3/relatorio_parte1_edge.md`](document/fase3/relatorio_parte1_edge.md) |
+| **3** | **Parte 2 — Fog/Cloud:** MQTT, configuração do broker, dashboard Node-RED, segurança e evidências (prints) | [`document/fase3/relatorio_parte2_mqtt_dashboard.md`](document/fase3/relatorio_parte2_mqtt_dashboard.md) |
+| 2 | Notebook do classificador renderizado (abre no navegador, sem Jupyter) | [`document/fase2/classificador_risco.html`](document/fase2/classificador_risco.html) |
+| 2 | Saída completa da extração de sintomas (Parte 1) | [`document/fase2/other/relatorio_parte1.txt`](document/fase2/other/relatorio_parte1.txt) |
+
+Os prints usados como evidência ficam em [`assets/`](assets/), também separados por fase.
+
 
 ---
 
 ## Fase 3 — Monitoramento contínuo (IoT, Edge, Fog e Cloud)
 
-🔗 **Wokwi, Parte 1 (Edge):** `[COLE AQUI O LINK DO WOKWI — PARTE 1]`
-🔗 **Wokwi, Parte 2 (MQTT):** `[COLE AQUI O LINK DO WOKWI — PARTE 2]`
+🔗 **Wokwi, Parte 1 (Edge):** [https://wokwi.com/projects/479771810533504001](https://wokwi.com/projects/479771810533504001)
+🔗 **Wokwi, Parte 2 (MQTT):** [https://wokwi.com/projects/479772032963822593](https://wokwi.com/projects/479772032963822593)
 
 A Fase 3 simula um **wearable cardíaco para monitoramento domiciliar pós-alta** e
 percorre o caminho completo do dado em IoT aplicado à saúde:
@@ -72,9 +85,16 @@ informa, por exemplo, que houve taquicardia às 02:13 enquanto o aparelho estava
 | Temperatura > 38,0 °C | Febre |
 | Temperatura < 35,0 °C | Hipotermia |
 
-📄 **Relatórios:**
-[Parte 1 — fluxo e resiliência offline](document/fase3/relatorio_parte1_edge.md) ·
-[Parte 2 — MQTT e dashboard](document/fase3/relatorio_parte2_mqtt_dashboard.md)
+### 📄 Relatórios da Fase 3
+
+Os relatórios entregues nesta fase estão em [`document/fase3/`](document/fase3/):
+
+- **Parte 1 — Edge Computing:** [`document/fase3/relatorio_parte1_edge.md`](document/fase3/relatorio_parte1_edge.md).
+  Descreve o fluxo de funcionamento, o armazenamento local em SPIFFS e a lógica de
+  resiliência offline.
+- **Parte 2 — Fog/Cloud:** [`document/fase3/relatorio_parte2_mqtt_dashboard.md`](document/fase3/relatorio_parte2_mqtt_dashboard.md).
+  Descreve a comunicação MQTT, a configuração do broker e o dashboard Node-RED. A seção 9
+  traz os prints.
 
 ### 🔧 Como executar a Fase 3
 
@@ -109,8 +129,8 @@ informa, por exemplo, que houve taquicardia às 02:13 enquanto o aparelho estava
 
 | Tópico | Conteúdo |
 |---|---|
-| `cardioia/g89/p001/vitais` | JSON por leitura: `seq`, `ts`, `temp`, `umid`, `bpm`, `alertas`, `atrasado`, `pendentes` |
-| `cardioia/g89/p001/status` | `online` / `offline` (retido; `offline` vem do Last Will) |
+| `cardioia/g66/p001/vitais` | JSON por leitura: `seq`, `ts`, `temp`, `umid`, `bpm`, `alertas`, `atrasado`, `pendentes` |
+| `cardioia/g66/p001/status` | `online` / `offline` (retido; `offline` vem do Last Will) |
 
 ### 📊 Evidências
 
@@ -353,8 +373,8 @@ cardioia-fiap/
 │   │       ├── diagnosticos.csv
 │   │       └── relatorio_parte1.txt
 │   └── fase3/
-│       ├── relatorio_parte1_edge.md
-│       └── relatorio_parte2_mqtt_dashboard.md
+│       ├── relatorio_parte1_edge.md          relatório da Parte 1 (Edge)
+│       └── relatorio_parte2_mqtt_dashboard.md  relatório da Parte 2 (MQTT + dashboard)
 ├── scripts/
 │   └── fase2_executar_tudo.sh
 ├── src/

@@ -1,6 +1,6 @@
 /*
  * CardioIA - Fase 3 | Parte 1: Armazenamento e processamento local (Edge Computing)
- * Grupo 89
+ * Grupo 66
  *
  * Simula um wearable cardiaco no ESP32:
  *   - DHT22 ............. temperatura (simulando sensor de pele) e umidade
@@ -416,7 +416,7 @@ void setup() {
 
   Serial.println();
   Serial.println("==============================================================");
-  Serial.println(" CardioIA - Fase 3 | Parte 1: Edge Computing (Grupo 89)");
+  Serial.println(" CardioIA - Fase 3 | Parte 1: Edge Computing (Grupo 66)");
   Serial.printf(" Leitura a cada %lu ms | fila maxima: %lu amostras\n",
                 (unsigned long)INTERVALO_LEITURA_MS, (unsigned long)MAX_AMOSTRAS);
   Serial.println(" Aperte o botao no ritmo do coracao | chave = conectividade");

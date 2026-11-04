@@ -4,14 +4,14 @@
     "type": "tab",
     "label": "CardioIA - Fase 3",
     "disabled": false,
-    "info": "Monitoramento do paciente p001 (Grupo 89). Assina cardioia/g89/p001/# no broker publico da HiveMQ."
+    "info": "Monitoramento do paciente p001 (Grupo 66). Assina cardioia/g66/p001/# no broker publico da HiveMQ."
   },
   {
     "id": "cmt_info",
     "type": "comment",
     "z": "cardioia_fase3",
     "name": "ESP32 -> HiveMQ -> Node-RED (fog) -> dashboard",
-    "info": "O ESP32 publica em cardioia/g89/p001/vitais (JSON) e cardioia/g89/p001/status (online/offline retido, via Last Will).\nA funcao \"Avaliar sinais\" reaplica os limiares clinicos e separa leituras ao vivo das recuperadas da fila offline.",
+    "info": "O ESP32 publica em cardioia/g66/p001/vitais (JSON) e cardioia/g66/p001/status (online/offline retido, via Last Will).\nA funcao \"Avaliar sinais\" reaplica os limiares clinicos e separa leituras ao vivo das recuperadas da fila offline.",
     "x": 260,
     "y": 40,
     "wires": []
@@ -21,7 +21,7 @@
     "type": "mqtt in",
     "z": "cardioia_fase3",
     "name": "vitais",
-    "topic": "cardioia/g89/p001/vitais",
+    "topic": "cardioia/g66/p001/vitais",
     "qos": "1",
     "datatype": "json",
     "broker": "broker_hivemq",
@@ -107,7 +107,7 @@
     "type": "mqtt in",
     "z": "cardioia_fase3",
     "name": "status",
-    "topic": "cardioia/g89/p001/status",
+    "topic": "cardioia/g66/p001/status",
     "qos": "1",
     "datatype": "utf8",
     "broker": "broker_hivemq",

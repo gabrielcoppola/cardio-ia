@@ -1,12 +1,12 @@
 /*
  * CardioIA - Fase 3 | Parte 2: Transmissao para a nuvem via MQTT (Fog/Cloud)
- * Grupo 89
+ * Grupo 66
  *
  * Evolucao da Parte 1: o mesmo wearable (DHT22 + botao de batimento + fila
  * local em SPIFFS) agora publica as leituras em um broker MQTT, consumidas por
  * um dashboard Node-RED.
  *
- * Topicos (prefixo cardioia/g89/p001):
+ * Topicos (prefixo cardioia/g66/p001):
  *   .../vitais  JSON com uma leitura por mensagem (QoS 0)
  *   .../status  "online" | "offline" (retido; "offline" vem do Last Will)
  *
@@ -47,8 +47,8 @@ const char*    MQTT_SENHA   = "";
 
 // O paciente e identificado por um codigo, nunca por nome ou documento.
 const char* ID_PACIENTE   = "p001";
-const char* TOPICO_VITAIS = "cardioia/g89/p001/vitais";
-const char* TOPICO_STATUS = "cardioia/g89/p001/status";
+const char* TOPICO_VITAIS = "cardioia/g66/p001/vitais";
+const char* TOPICO_STATUS = "cardioia/g66/p001/status";
 
 constexpr uint32_t INTERVALO_RECONEXAO_MS = 5000;
 
@@ -486,7 +486,7 @@ void setup() {
 
   Serial.println();
   Serial.println("==============================================================");
-  Serial.println(" CardioIA - Fase 3 | Parte 2: MQTT + Node-RED (Grupo 89)");
+  Serial.println(" CardioIA - Fase 3 | Parte 2: MQTT + Node-RED (Grupo 66)");
   Serial.printf(" Broker: %s:%u | topico: %s\n", MQTT_HOST, MQTT_PORTA, TOPICO_VITAIS);
   Serial.println(" Aperte o botao no ritmo do coracao | chave = cobertura de rede");
   Serial.println("==============================================================");
@@ -500,7 +500,7 @@ void setup() {
   // fixe a CA do broker com rede.setCACert(...).
   rede.setInsecure();
 #endif
-  idCliente = "cardioia-g89-" + String((uint32_t)ESP.getEfuseMac(), HEX);
+  idCliente = "cardioia-g66-" + String((uint32_t)ESP.getEfuseMac(), HEX);
   mqtt.setServer(MQTT_HOST, MQTT_PORTA);
   mqtt.setBufferSize(512);
   mqtt.setSocketTimeout(3);

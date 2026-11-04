@@ -1,7 +1,7 @@
 # CardioIA — Fase 3 · Parte 1
 ## Relatório: armazenamento e processamento local (Edge Computing)
 
-**Grupo 89** · Gabriel Coppola · Tutor: Leonardo Ruiz
+**Grupo 66** · Gabriel Coppola · Tutor: Leonardo Ruiz
 Código: `src/fase3/parte1_edge/` (`sketch.ino`, `diagram.json`, `libraries.txt`)
 
 ---

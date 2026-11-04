@@ -1,7 +1,7 @@
 # CardioIA — Fase 3 · Parte 2
 ## Relatório: comunicação MQTT e dashboard Node-RED (Fog/Cloud Computing)
 
-**Grupo 89** · Gabriel Coppola · Tutor: Leonardo Ruiz
+**Grupo 66** · Gabriel Coppola · Tutor: Leonardo Ruiz
 Código: `src/fase3/parte2_mqtt/` (ESP32) e `src/fase3/node-red/flows.json` (dashboard)
 
 ---
@@ -43,11 +43,11 @@ que o HTTP exige), e o protocolo oferece dois recursos que este projeto usa dire
 
 | Tópico | Conteúdo | QoS | Retido |
 |---|---|---|---|
-| `cardioia/g89/p001/vitais` | 1 leitura por mensagem (JSON) | 0 | não |
-| `cardioia/g89/p001/status` | `online` (publicado pelo ESP32) ou `offline` (Last Will) | 1 | sim |
+| `cardioia/g66/p001/vitais` | 1 leitura por mensagem (JSON) | 0 | não |
+| `cardioia/g66/p001/status` | `online` (publicado pelo ESP32) ou `offline` (Last Will) | 1 | sim |
 
 A hierarquia `projeto/grupo/paciente/tipo` permite assinar com curingas, por exemplo
-`cardioia/g89/+/status` para ver o status de todos os pacientes do grupo. O paciente é
+`cardioia/g66/+/status` para ver o status de todos os pacientes do grupo. O paciente é
 identificado por um **código** (`p001`), nunca por nome ou documento.
 
 Exemplo de payload em `.../vitais`:
